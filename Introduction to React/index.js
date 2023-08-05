@@ -11,14 +11,20 @@
 
 //Creating an Element in Javascript
 
-
 //Writing code in JSX
 
 // const reactHeading = React.createElement("h1",{className : "head", id:"reactHead"},"Hello React!");
 
 // Understanding Babel
 
-const jsxHeading = (<h1 className="head">Hello JSX!</h1>);
+// React Fragment
+
+const jsxHeading = <>
+                    <h1 className="head">Hello JSX!</h1>
+                    <p>This is created using JSX</p>
+                    </>
+
+// React Fragment
 
 // Understanding Babel
 
@@ -29,3 +35,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(jsxHeading);
 // console.log("React element: ",reactHeading);
 
 //My First React Element
+
