@@ -22,6 +22,11 @@
 const jsxHeading = <>
                     <h1 className="head">Hello JSX!</h1>
                     <p>This is created using JSX</p>
+                    <ul>
+                        <li>Laraib</li>
+                        <li>Ahmad</li>
+                        <li>Siddiqui</li>
+                    </ul>
                     </>
 
 // React Fragment
