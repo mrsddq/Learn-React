@@ -11,9 +11,17 @@
 
 //Creating an Element in Javascript
 
-const reactHeading = React.createElement("h1",{className : "head", id:"reactHead"},"Hello React!");
 
-ReactDOM.createRoot(document.getElementById("root")).render(reactHeading);
+//Writing code in JSX
+
+// const reactHeading = React.createElement("h1",{className : "head", id:"reactHead"},"Hello React!");
+
+const jsxHeading = (<h1>Hello JSX!</h1>);
+
+
+ReactDOM.createRoot(document.getElementById("root")).render(jsxHeading);
+
+//Writing code in JSX
 
 // console.log("React element: ",reactHeading);
 
