@@ -9,3 +9,5 @@ The virtual DOM (VDOM) is a programming concept where an ideal or virtual repres
 How VDOM works ?
 First VDOM updates then DOM gets updated.
 JSX :  JavaScript + HTML/Syntactic Sugar
+Understanding Babel
+https://babeljs.io/

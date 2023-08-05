@@ -16,8 +16,11 @@
 
 // const reactHeading = React.createElement("h1",{className : "head", id:"reactHead"},"Hello React!");
 
-const jsxHeading = (<h1>Hello JSX!</h1>);
+// Understanding Babel
 
+const jsxHeading = (<h1 className="head">Hello JSX!</h1>);
+
+// Understanding Babel
 
 ReactDOM.createRoot(document.getElementById("root")).render(jsxHeading);
 
