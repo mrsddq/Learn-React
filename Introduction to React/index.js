@@ -9,8 +9,6 @@
 
 // console.log("JavaScript element: ",heading);
 
-
-
 //Creating an Element in Javascript
 
 const reactHeading = React.createElement("h1",{className : "head", id:"reactHead"},"Hello React!");
