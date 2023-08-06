@@ -19,3 +19,8 @@ https://babeljs.io/
 </React.Fragment> or </>
 
 Components in React
+App() => a function
+<App /> => a component
+
+React Developer Tools: a chrome extention
+
