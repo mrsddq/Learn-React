@@ -12,3 +12,5 @@ Why JSX?
     React seperates concerns instead of seperating technologies
 
 Embedding JavaScript in JSX
+
+Expressions in JSX
