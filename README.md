@@ -24,3 +24,5 @@ App() => a function
 
 React Developer Tools: a chrome extention
 
+Functional Component using Arrow Function
+
