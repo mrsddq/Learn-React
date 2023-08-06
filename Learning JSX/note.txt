@@ -11,6 +11,15 @@ Why JSX?
     Helpful as a visual aid when working with UI inside JavaScript
     React seperates concerns instead of seperating technologies
 
-Embedding JavaScript in JSX
+Embedding JavaScript in JSX : {}
 
 Expressions in JSX
+
+Rendering Arrays and Objects
+    const a = 10;
+    const a = [1,2,3,4,5];
+    const a = {
+        name = "Alexa
+    }
+    Map function to render array data.
+    
