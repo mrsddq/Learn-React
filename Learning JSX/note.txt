@@ -10,4 +10,5 @@ Why JSX?
     React embraces the fact that rendering logic should be coupled with UI logic
     Helpful as a visual aid when working with UI inside JavaScript
     React seperates concerns instead of seperating technologies
-    
+
+Embedding JavaScript in JSX
