@@ -22,4 +22,7 @@ Rendering Arrays and Objects
         name = "Alexa
     }
     Map function to render array data.
-    
+
+Assigning Unique Keys
+
+ Displaying Students' information in a Table 
