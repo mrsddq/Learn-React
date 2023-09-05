@@ -25,4 +25,5 @@ Rendering Arrays and Objects
 
 Assigning Unique Keys
 
- Displaying Student's Information in a Table 
+ Displaying Student's Information in a Table
+ Rendering Components based on a Condition

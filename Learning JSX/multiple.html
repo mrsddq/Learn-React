@@ -11,7 +11,7 @@
     <body>
         <div id="root"></div>
         <script type="text/babel">
-            function App(){
+            function StudentsList(){
 
                 let students = [
                     {
@@ -31,34 +31,12 @@
                     }
                 ]
 
-                // let arr = [1,2,3,4,5];
-                // let obj = {
-                //     name : "Alexa",
-                //     age : 10
-                // }
-
-            // Assigning Unique Keys
-
-            //Displaying Student's Information in a Table
-
             // Rendering Components based on a Condition
 
-                // let cars = ["BMW","Audi","Porche","Ford", "Volkswagen"];
                 return(
-                    // <h1>Rendering Arrays and Objects</h1>
-                    // {arr.map((num) => <p>{num}</p>)}
-                    // {arr.filter((num) => num % 2 === 0).map((num) => (<p key={num}>{num}</p>))}
-                    // <p>{obj.name}<br/>{obj.age}</p>
-
-                    // <>
-                    // <h1>List of Cars</h1>
-                    // // <ul>
-                    // //     {cars.map((car,index) => (<li key = {index}>{car}</li>))}
-                    // // </ul>
-                    // </>
 
                     <>
-                    <h1>Student Details</h1>
+                        <h1>Student Details</h1>
                         <table>
                             <thead>
                                 <tr>
@@ -77,6 +55,35 @@
                                 ))}
                             </tbody>
                         </table>
+                    </>
+                )
+            }
+
+            function CarsList(){
+
+                let cars = ["BMW","Audi","Porche","Ford", "Volkswagen"];
+
+                return(
+                    <>
+                        <h1>List of Cars</h1>
+                        <ul>
+                            {cars.map((car,index) => (<li key = {index}>{car}</li>))}
+                        </ul>
+                    </>
+                )
+            }
+
+            function App(){
+                let showCars = true;
+
+                if(showCars){
+                    return <CarsList />
+                }
+                return(
+                    <>
+                        <StudentsList />
+                        <CarsList />
+
                     </>
                 )
             }
