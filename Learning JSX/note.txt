@@ -27,3 +27,4 @@ Assigning Unique Keys
 
  Displaying Student's Information in a Table
  Rendering Components based on a Condition
+ Conditional Rendering using Ternary Operator
