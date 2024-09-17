@@ -13,24 +13,27 @@
             let score=0;
             let wicket=0;
             let ballWiseRes = [];
+            let hit=0;
 
             function addScore(num){
-                if(wicket < 11){
-                    ballWiseRes.push(num);
-                    score += num;
-                }
+                // if(wicket < 11){
+                //     ballWiseRes.push(num);
+                //     score += num;
+                // }
+                hit=num;
                 rootElement.render(<App />);
-                console.log(ballWiseRes);
+                // console.log(ballWiseRes);
 
             }
 
-            function addWicket(){
-                if(wicket < 11){
-                    ballWiseRes.push("W");
-                    wicket += 1;
-                }
+            function addWicket(num){
+                // if(wicket < 11){
+                //     ballWiseRes.push("W");
+                //     wicket += 1;
+                // }
+                hit=wicket;
                 rootElement.render(<App/>);
-                console.log(ballWiseRes);
+                // console.log(ballWiseRes);
             }
 
             const ScoreButton = () => (
