@@ -1,0 +1,22 @@
+javascript interview topics::
+- let vs var vs const
+        var: Function-scoped, can be re-declared, hoisted with an initial value of undefined.
+        let: Block-scoped, no re-declaration, hoisted without initialization, allows reassignment.
+        const: Block-scoped, no re-declaration or reassignment, hoisted without initialization.
+- global scope vs block scope
+        Global Scope: Accessible anywhere in the program, and often persistent throughout the runtime.
+        Block Scope: Limited to the block where it is defined, enhancing modularity and preventing unwanted access from other parts of the program.
+- temporal dead zone(TDZ)
+- hoisting
+- closures
+- callbacks
+- promises , async /await , .then
+- map, filter , reduce
+- polyfills 
+- Map , sets 
+- array , object destructuring
+- arrow functions, anonymous functions , IIFE(immediately invoked function expression) and use cases
+- caching , memoization 
+- 'this' keyword for objects , functions , different functions
+- CRUD API 
+- fetch(), axios library 
