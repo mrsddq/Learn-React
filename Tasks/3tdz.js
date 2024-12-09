@@ -5,8 +5,7 @@ function demoTDZ() {
     let a = 10;
     console.log(a); // Output: 10
   }
-  
-  demoTDZ();
+demoTDZ();
 
 //   let a is declared after the console.log(a); line.
 //   Accessing a before its declaration throws a ReferenceError because a is in the TDZ.

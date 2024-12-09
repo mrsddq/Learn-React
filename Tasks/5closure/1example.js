@@ -8,6 +8,7 @@ function outerFunction() {
     return innerFunction; // Returns the inner function (creating a closure)
   }
   
+  
   const closureFunction = outerFunction();
   closureFunction(); // Output: "I'm outside!"
   

@@ -29,7 +29,7 @@ javascript interview topics:
         Asynchronous Callbacks: These are executed after an asynchronous operation completes, like with setTimeout, fetch, or other non-blocking tasks.
 
         Callbacks allow functions to be passed as arguments and executed later, often making them invaluable for handling asynchronous behavior, event handling, and array processing in JavaScript. They form the basis for handling asynchronous workflows, although modern JavaScript now also uses Promises and async/await for improved readability.
-- promises , async /await , .then
+- 7promises , async /await , .then
 - 8map, filter , reduce
 - polyfills 
 - Map , sets 
